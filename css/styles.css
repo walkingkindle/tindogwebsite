@@ -5,11 +5,15 @@ color: #fff;
 body{
 font-family:"Monserrat";
 }
-h1 {
+/* Heading Section */
+.big-heading{
 font-family: 'Ubuntu';
 font-size: 3.5rem;
 line-height: 1.5;
 font-weight: 900;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat-Bold"
 }
 .container-fluid{
     padding: 3% 15% 7%;
@@ -28,7 +32,7 @@ font-family: "Montserrat-Light";
     padding-bottom: 4.5rem;
 }
 h2{
-font-family: "Montserrat";
+
 font-size: 3rem;
 line-height: 1.5
 }
@@ -41,7 +45,6 @@ font-weight:bold;
 padding:0 18px;
 }
 h3{
-font-family: "Montserrat-Bold";
 font-size: 1.5rem;
 }
 .feature-image{
@@ -120,4 +123,33 @@ text-align: center;
 .pricing-column{
 padding: 3% 2%;
 }
+.price-text{
+font-size: 3rem;
+line-height: 1.5;
 
+}
+@media (max-width: 1028px){
+    #title{
+    text-align: center;
+    }
+    .title-image{
+    position: static;
+    transform: rotate(0);
+    }
+}
+
+
+/*Footer Section*/
+#cta{
+background-color:#ff4c68;
+color: #fff;
+text-align:center;
+padding: 7% 15%;
+}
+
+
+#footer{
+background-color: #fff;
+text-align:center;
+
+}
